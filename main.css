@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+.custom {
+    padding: 0.3em 2em;
+    margin: 2em;
+    background: #5c6163;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s ease-in;
+    outline: none;
+}
+
+.custom:hover {
+    background: rgb(26, 25, 25);
+    color: #fff;
+    border: 1px solid #187b94;
+    transform: rotateZ(-2deg);
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    background: black;
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    z-index: 4;
+    padding: 3px 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+ul {
+    margin: 1rem;
+}
+
+ul li:hover,
+.active {
+    background: rgba(101, 105, 101, 0.836);
+    cursor: pointer;
+}
